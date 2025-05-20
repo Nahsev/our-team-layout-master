@@ -102,14 +102,18 @@
     align-items: end;
     padding: 32px;
     text-align: left;
-    
+    height: 288px;
+    width: 284px;
     position: absolute;
     bottom: 0px;
+grid-column: 1/2;
 
+   
+  
 }
 
 
-@media (max-width:1280px){
+@media (max-width:1357px){
     .container{
         grid-template-columns: repeat(3,1fr);
     }
@@ -132,10 +136,7 @@
     flex-direction: column;
   }
 
-  .members {
-   position: static;
-   height: 288px;
-  }
+  
 
   .cont {
     display: flex;
