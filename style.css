@@ -113,7 +113,7 @@ grid-column: 1/2;
 }
 
 
-@media (max-width:1357px){
+@media (max-width:1280px){
     .container{
         grid-template-columns: repeat(3,1fr);
     }
@@ -134,6 +134,7 @@ grid-column: 1/2;
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: center;align-items: center;
   }
 
   .members{
