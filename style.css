@@ -136,7 +136,9 @@ grid-column: 1/2;
     flex-direction: column;
   }
 
-  
+  .members{
+    position: static;
+  }
 
   .cont {
     display: flex;
